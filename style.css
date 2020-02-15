@@ -69,3 +69,40 @@ a {
 .user-logo {
   width: 27px;
 }
+
+.intro-section {
+  display: flex;
+}
+
+.intro-section .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-color: #fdf9ba;
+}
+
+.intro-section .left h1 {
+  font-size: 72px;
+}
+
+.intro-section .left p {
+  font-size: 20px;
+}
+
+.lets-start-button {
+  display: inline-block;
+  background-color: rgba(74, 74, 74, 1);
+  color: white;
+  padding: 10px 20px;
+  margin-top: 50px;
+  transition: background-color 200ms;
+}
+
+.lets-start-button:hover {
+  background-color: rgba(74, 74, 74, 0.6);
+}
+
+.intro-section .right {
+  width: 50%;
+}
